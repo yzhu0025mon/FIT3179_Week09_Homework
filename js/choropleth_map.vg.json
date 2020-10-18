@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/yzhu0025mon/FIT3179_Week09_Homework/main/js/VIC.suburbs.topojson",
+    "url": "https://raw.githubusercontent.com/yzhu0025mon/FIT3179_Week09_Homework/main/js/VIC.suburbs.json",
     "format": {
           "type": "topojson",
           "feature": "VIC"
