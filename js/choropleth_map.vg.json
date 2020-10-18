@@ -18,9 +18,9 @@
         },
         "key": "suburb",
         "fields": ["num_shops"]
-      },
-      {"calculate": "datum.num_shops + 0.1", "as": "Number of shops"}
-    }
+      }
+    },
+    {"calculate": "datum.num_shops + 0.1", "as": "Number of shops"}
   ],
   "projection": {
     "type": "equirectangular"
