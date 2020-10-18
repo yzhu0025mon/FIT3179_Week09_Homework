@@ -29,7 +29,7 @@
     },
   "encoding": {
     "color": {
-      "field": "Number of Shops",
+      "field": "num_shops",
       "type": "quantitative"
     },
     "tooltip": [
