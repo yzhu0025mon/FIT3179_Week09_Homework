@@ -18,7 +18,8 @@
         },
         "key": "suburb",
         "fields": ["num_shops"]
-      }
+      },
+      {"calculate": "datum.num_shops + 0.1", "as": "Number of shops"}
     }
   ],
   "projection": {
@@ -29,8 +30,9 @@
     },
   "encoding": {
     "color": {
-      "field": "num_shops",
-      "type": "quantitative"
+      "field": "Number of shops",
+      "type": "quantitative",
+      "scale": {"type": "log"}
     },
     "tooltip": [
       {"field": "properties.vic_loca_2", "type": "nominal", "title": "suburb"},
